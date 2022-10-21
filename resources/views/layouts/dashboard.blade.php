@@ -19,7 +19,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     {{-- TODO --}}
-    <title>Document</title>
+    <title>BDoctors Backoffice</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-primary flex-md-nowrap p-0">
@@ -56,7 +56,7 @@
                         <li class="nav-item">
                             <a class="nav-link active" href="{{ route('admin.home') }}">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-                                Dashboard
+                                Profilo
                             </a>
                         </li>
 
@@ -68,12 +68,11 @@
                             </a>
                         </li>
 
-
                         {{-- Messages List Link --}}
                         <li class="nav-item">
                             <a class="nav-link active" href="{{ route('admin.messages.index') }}">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>     
-                                I tuoi Messaggi
+                                Messaggi
                             </a>
                         </li>
 
@@ -81,15 +80,15 @@
                         <li class="nav-item">
                             <a class="nav-link active" href="{{ route('admin.reviews.index') }}">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-                                Le tue Recensioni
+                                Recensioni
                             </a>
                         </li>
 
                         {{-- Statistics Link --}}
                         <li class="nav-item">
-                            <a class="nav-link active" href="{{ route('statistics') }}">
+                            <a class="nav-link active" href="{{ route('admin.statistics') }}">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-                                Le tue Statistiche
+                                Statistiche
                             </a>
                         </li>
                     </ul>

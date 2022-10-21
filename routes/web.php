@@ -29,9 +29,8 @@ Route::middleware('auth')
 // DEBUG
 Route::get('/debug', 'HomeController@debug')->name('debug');
 
-
-// STATISTICS ROUTE
-Route::get('/statistics', 'Admin\StatisticController@getStatisticsUser')->name('statistics');
+// STATISTICS
+Route::get('/statistics', 'Admin\StatisticsController@index')->name('admin.statistics');
 
 // Rotte gestite da Vue
 // SPONSOR
