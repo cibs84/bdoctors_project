@@ -1,0 +1,22 @@
+#filterList {
+    list-style-type: none;
+    padding-right: 11rem;
+
+    li {
+        padding-right: 10px;
+    
+    &::after {
+        content: " | ";
+        color: black !important;
+        font-weight: 400 !important;
+    }
+    
+    &:last-child::after {
+        content: "";
+    }
+}
+
+    .my_font_color {
+        color: $primary;
+    }
+}
