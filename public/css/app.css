@@ -9266,23 +9266,24 @@ h5 span {
   width: 10rem;
 }
 
-#filterList {
-  list-style-type: none;
-  padding-right: 11rem;
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-#filterList li {
-  padding-right: 10px;
-}
-#filterList li::after {
-  content: " | ";
-  color: black !important;
-  font-weight: 400 !important;
-}
-#filterList li:last-child::after {
-  content: "";
-}
-#filterList .my_font_color {
+
+.heading ul li {
+  display: inline-block;
+  padding: 0 1rem;
+  border-left: 1px solid gray;
   color: #3490dc;
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.heading ul li:first-child {
+  border-left: none;
 }
 
 HTML SCSS JS Result Skip Results Iframe .button {

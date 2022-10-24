@@ -3,6 +3,8 @@
     "/css/app.css": "/css/app.css",
     "/js/back.js": "/js/back.js",
     "/js/bootstrap.js": "/js/bootstrap.js",
+    "/js/chart.js": "/js/chart.js",
     "/js/popper.js": "/js/popper.js",
+    "/js/statistics.js": "/js/statistics.js",
     "/js/validation.js": "/js/validation.js"
 }

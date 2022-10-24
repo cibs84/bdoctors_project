@@ -11,6 +11,8 @@
     <!-- Scripts -->
     <script src="{{ asset('js/back.js') }}" defer></script>
     <script src="{{ asset('js/bootstrap.js') }}" defer></script>
+    <script src="{{ asset('js/chart.js') }}" defer></script>
+    <script src="{{ asset('js/statistics.js') }}" defer></script>
     <script src="https://js.braintreegateway.com/web/dropin/1.33.4/js/dropin.min.js"></script>
     <script src="https://js.braintreegateway.com/web/3.87.0/js/client.min.js"></script>
     <script src="https://js.braintreegateway.com/web/3.87.0/js/data-collector.min.js"></script>

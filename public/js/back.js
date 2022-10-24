@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -93,6 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+// VALIDAZIONE CHECKBOX
 window.addEventListener('load', function () {
   var checkbox = document.querySelectorAll('input[type="checkbox"]'); // validazione checkbox
 
@@ -108,22 +109,11 @@ window.addEventListener('load', function () {
       }
     });
   });
-}); // BRAINTREE OFFICIAL
-// var button = document.querySelector('#submit-button');
-// braintree.dropin.create({
-//   authorization: 'sandbox_g42y39zw_348pk9cgf3bgyw2b',
-//   selector: '#dropin-container'
-// }, function (err, instance) {
-//   button.addEventListener('click', function () {
-//     instance.requestPaymentMethod(function (err, payload) {
-//       // Submit payload.nonce to your server
-//     });
-//   })
-// });
+});
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!************************************!*\
   !*** multi ./resources/js/back.js ***!
   \************************************/

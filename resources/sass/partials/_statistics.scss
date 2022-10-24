@@ -1,22 +1,17 @@
-#filterList {
-    list-style-type: none;
-    padding-right: 11rem;
-
-    li {
-        padding-right: 10px;
-    
-    &::after {
-        content: " | ";
-        color: black !important;
-        font-weight: 400 !important;
-    }
-    
-    &:last-child::after {
-        content: "";
-    }
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-    .my_font_color {
-        color: $primary;
-    }
+.heading ul li {
+    display: inline-block;
+    padding: 0 1rem;
+    border-left: 1px solid gray;
+    color: #3490dc;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.heading ul li:first-child {
+    border-left: none;
 }
