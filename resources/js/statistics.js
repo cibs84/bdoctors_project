@@ -8,7 +8,8 @@ let myChart;
 // Array a cui verrà assegnata la lista con la media voti delle recensioni ricevute
 let reviews_avg_vote_array = [];
 
-// Assegnazione a 'reviews_avg_vote_array' 
+// Assegnazione a 'reviews_avg_vote_array' delle medie voti 
+// delle recensioni ricevute durante 'TUTTI GLI ANNI'
 Object.keys(myData.years).forEach(period => {
   reviews_avg_vote_array.push(myData.years[period].reviews_avg_vote);
 });

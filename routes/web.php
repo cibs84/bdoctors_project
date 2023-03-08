@@ -32,7 +32,6 @@ Route::get('/debug', 'HomeController@debug')->name('debug');
 // STATISTICS
 Route::get('/statistics', 'Admin\StatisticsController@index')->name('admin.statistics');
 
-// Rotte gestite da Vue
 // SPONSOR
 Route::get('/sponsors', 'Admin\SponsorController@getSponsorPackages')->name('sponsor');
 
@@ -42,6 +41,7 @@ Route::post('/payment/form', 'Admin\PaymentsController@paymentForm')->name('paym
 // route per avviare tutto il processo di transazione verso braintree
 Route::post('/payment/process', 'Admin\PaymentsController@process')->name('payment.process');
 
+// Rotte gestite da Vue
 Route::get('{any?}', function () {
     return view('guest.home');
 })->where('any', '.*')->name('guest');

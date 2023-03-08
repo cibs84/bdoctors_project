@@ -21,7 +21,8 @@ class StatisticsController extends Controller
     //************
     // FUNCTIONS
     //************
-    // Genera i dati da inviare alla view 'admin.statistics' per generare le statistiche tramite Chart.js
+    // Prende i dati dal database e l'invia alla view 'admin.statistics' 
+    // per generare il grafico delle statistiche tramite Chart.js
     public function index(Request $request) {
         $this->user = $request->user();
         

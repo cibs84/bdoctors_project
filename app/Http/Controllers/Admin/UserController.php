@@ -177,7 +177,7 @@ class UserController extends Controller
         $counter = 1;
         while($existing_slug_user) {
             // Si crea un nuovo slug con $counter
-            $slug_to_user = $slug_base . '-' . $counter;
+            $slug_to_save = $slug_base . '-' . $counter;
 
             // Verificare se lo slag esiste nel database
             $existing_slug_user = User::where('slug', '=', $slug_to_save)->first();
